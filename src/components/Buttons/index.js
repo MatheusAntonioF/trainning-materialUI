@@ -13,7 +13,7 @@ import { DeleteForever } from '@material-ui/icons';
  * startIcon -> prop com component <Icon />
  */
 
-function App() {
+export default function ButtonComponent() {
 
   /**
    *  createMuiTheme -> cria um palheta de cores
@@ -73,4 +73,3 @@ function App() {
   );
 }
 
-export default App;
